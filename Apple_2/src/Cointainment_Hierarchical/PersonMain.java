@@ -34,7 +34,7 @@ public class PersonMain {
 		System.out.println("------------------------------\nStudent Information : ");
 		System.out.println("ID :" + s.getId() + ", Name: " + s.getName() + ", Age: " + s.getAge() + ", Contact: "
 				+ s.getContact());
-		System.out.println("College: " + s.getCollege() + ", Percentage: " + s.getPercent());
+		System.out.println("College: " + s.getCollege() + ", Percentage: " + s.getPercent()+" %");
 		s.Grade(percent);
 
 		System.out.println("------------------------------\n");
