@@ -1,4 +1,4 @@
-package Assignmrnt_02_12_11;
+package Assignmrnt_02_12_22;
 
 //	Q.  Create Class Laptop which has variables noOfUSBPort, processorSpeed of type int. 
 //		Create getter, setter methods for the variables. In main method,

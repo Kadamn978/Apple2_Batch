@@ -1,6 +1,6 @@
-package Assignmrnt_02_12_11;
+package Assignmrnt_02_12_22;
 
-public class Q1VehicleInformation extends Q1Vehicle {
+public class Q1Vehicle extends Q1RTO {
 	int price;
 	String vehiclename;
 

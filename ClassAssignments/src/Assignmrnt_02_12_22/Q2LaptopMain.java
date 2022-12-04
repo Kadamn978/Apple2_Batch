@@ -1,4 +1,4 @@
-package Assignmrnt_02_12_11;
+package Assignmrnt_02_12_22;
 
 import java.util.Scanner;
 

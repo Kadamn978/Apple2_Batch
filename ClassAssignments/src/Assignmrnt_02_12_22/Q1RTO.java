@@ -1,6 +1,6 @@
-package Assignmrnt_02_12_11;
+package Assignmrnt_02_12_22;
 
-public class Q1Vehicle {
+public class Q1RTO {
 	int reg;
 	String companyname,fueltype,state;
 	

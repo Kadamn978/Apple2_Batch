@@ -1,4 +1,4 @@
-package Assignmrnt_02_12_11;
+package Assignmrnt_02_12_22;
 
 import java.util.Scanner;
 
@@ -32,7 +32,7 @@ public class Q3PersonMain {
 		p.setIdnumber(idnumber);
 		p.setIdvalidity(idvalidity);
 
-			System.out.println("ID NO. : " + p.getId() + "\t Name : " + p.getName() + "\t Contact : " + p.getContact()
+			System.out.println("ID : " + p.getId() + "\t Name : " + p.getName() + "\t Contact : " + p.getContact()
 					+ "\t Address : " + p.getAddress());
 			System.out.println("ID Name : " + p.getIdname() + "\t ID Number : " + p.getIdnumber() + "\t ID Validity : "
 					+ p.getIdvalidity());

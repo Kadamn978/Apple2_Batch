@@ -1,4 +1,4 @@
-package Assignmrnt_02_12_11;
+package Assignmrnt_02_12_22;
 
 import java.util.Scanner;
 
@@ -29,7 +29,7 @@ public class Q1ShapeMain {
 			s.square(side);
 			break;
 		case 3:
-			System.out.println("Enter Side Of Circle");
+			System.out.println("Enter Radius Of Circle");
 			radius = sc.nextInt();
 			s.setRadius(radius);
 			s.circle(radius);

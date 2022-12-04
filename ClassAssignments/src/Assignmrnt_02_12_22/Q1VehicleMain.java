@@ -1,4 +1,4 @@
-package Assignmrnt_02_12_11;
+package Assignmrnt_02_12_22;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class Q1VehicleMain {
 		System.out.println("Enter Vehicle Price : ");
 		price = sc.nextInt();
 
-		Q1VehicleInformation v = new Q1VehicleInformation();
+		Q1Vehicle v = new Q1Vehicle();
 		v.registrationNo(reg, state);
 		v.setData(reg, companyname, fueltype, state);
 		v.setVehicle(price, vehiclename);
