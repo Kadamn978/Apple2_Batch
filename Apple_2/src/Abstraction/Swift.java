@@ -1,11 +1,6 @@
 package Abstraction;
 
-public class Swift extends Car {
-
-	public Swift(int enginecapacity, int price) {
-		this.enginecapacity=enginecapacity;
-		this.price=price;
-	}
+public abstract class Swift extends Car {
 		
 	void diaplay() {
 		System.out.println("Engine Capacity: "+enginecapacity+"cc, Price: "+price+" Rs.");
@@ -24,7 +19,7 @@ public class Swift extends Car {
 
 	@Override
 	void dashboard() {
-		System.out.println("COmes with Touchscreen Musicplayer");
+		System.out.println("Comes with Touchscreen Musicplayer");
 		
 	}
 

@@ -15,5 +15,7 @@ public abstract class Car {
 	abstract void headlightNo();
 
 	abstract void dashboard();
+	
+	abstract void alloywheel();
 
 }

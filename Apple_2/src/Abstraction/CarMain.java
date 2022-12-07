@@ -10,7 +10,7 @@ public class CarMain {
 		int engine = sc.nextInt();
 		System.out.println("Enter Price");
 		int price = sc.nextInt();
-		Swift s = new Swift(engine, price);
+		SwiftDezire s = new SwiftDezire(engine, price);
 		s.diaplay();
 		s.safetyfeatures();
 		s.headlightNo();

@@ -31,4 +31,8 @@ public class Q1Shape {
 		this.height = height;
 	}
 
+	void display() {
+		System.out.println(length + width + side + radius + height + base);
+	}
+
 }
