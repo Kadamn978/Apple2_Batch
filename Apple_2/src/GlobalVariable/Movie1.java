@@ -18,6 +18,7 @@ public class Movie1 {
 	System.out.println("Enter the Producer Name");
 	producer=sc.next();
 	System.out.println(" ");
+	sc.close();
 	}
 	
 //	void display() {
