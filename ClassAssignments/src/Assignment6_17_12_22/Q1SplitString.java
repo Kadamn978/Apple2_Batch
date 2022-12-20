@@ -7,8 +7,8 @@ public class Q1SplitString {
 	public static void main(String[] args) {
 		String s = "HELLO$WORLD";
 
-		String[] words = s.split("[^A-Za-z0-9]");
-		System.out.println(Arrays.toString(words));
+		String ch[] = s.split("[^A-Za-z0-9]");
+		System.out.println(Arrays.toString(ch));
 
 //		char[] s1=s.toCharArray();
 //		for (int i = 0; i < s1.length; i++) {
